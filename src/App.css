@@ -36,3 +36,251 @@
     transform: rotate(360deg);
   }
 }
+/* LANDING PAGE */
+.container {
+  background-image: url("https://wallpaperaccess.com/full/954238.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  display: flex;
+}
+
+.snow {
+  width: 100%;
+}
+
+.house {
+  width: 550px;
+  height: 300px;
+
+  position: relative;
+  top: 45%;
+  right: 5%;
+}
+
+.house:hover {
+  cursor: pointer;
+}
+
+.link1 {
+  height: 140px;
+  width: 500px;
+  background-color: #61dafb;
+}
+
+.house_msg {
+  height: 100px;
+
+  position: relative;
+  top: 15%;
+  right: 29%;
+  opacity: 90%;
+}
+
+.santa {
+  height: 200px;
+  position: relative;
+  top: 20%;
+  right: 35%;
+  opacity: 70%;
+}
+
+
+@media only screen and (max-width: 321px) {
+  .container {
+    background-image: url("https://wallpaperaccess.com/full/954238.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+  }
+  
+  .snow {
+    width: 100%;
+  }
+  
+  .house {
+    width: 550px;
+    height: 300px;
+  
+    position: relative;
+    top: 45%;
+    right: 5%;
+  }
+  
+  .house:hover {
+    cursor: pointer;
+  }
+  
+  .link1 {
+    height: 140px;
+    width: 500px;
+    background-color: #61dafb;
+  }
+  
+  .house_msg {
+    height: 100px;
+  
+    position: relative;
+    top: 15%;
+    right: 29%;
+    opacity: 90%;
+  }
+  
+  .santa {
+display: none;
+  }
+  
+
+}
+
+/* INSIDE OF THE ROOM */
+.container1 {
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/cozy-christmas-suzanne-amberson.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.cont3 {
+  height: 600px;
+  width: 300px;
+
+  justify-self: flex-start;
+}
+
+.cont4 {
+  position: absolute;
+  height: 600px;
+  width: 300px;
+
+  right: 530px;
+}
+.btn2 {
+  position: relative;
+  top: 180px;
+  width: 450px;
+  right: 130px;
+  height: 250px;
+  opacity: 0.1%;
+}
+
+.btn2:hover {
+  cursor: pointer;
+}
+.fire {
+  position: relative;
+  height: 290px;
+  top: 350px;
+  right: 120px;
+  width: 500px;
+  opacity: 50%;
+}
+
+.teddy {
+  position: relative;
+
+  left: 120px;
+  opacity: 75%;
+}
+.fire_msg {
+  height: 180px;
+
+  opacity: 85%;
+}
+/* Navbar */
+.navbar {
+  height: 60px;
+  background-color: brown;
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Twinkle Star", cursive;
+  font-size: 1.2rem;
+}
+
+.btn2:hover {
+  cursor: pointer;
+}
+.btn1 {
+  position: relative;
+  top: 320px;
+  right: 20px;
+  opacity: 0.1%;
+}
+/* FOOTER */
+
+.footer {
+  height: 60px;
+  background-color: brown;
+  color: white;
+}
+
+/* WISH */
+
+.wish {
+  height: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wish h1 {
+  font-family: "Twinkle Star", cursive;
+  font-size: 5rem;
+  text-shadow: 1px 2px brown;
+}
+
+.wish p {
+  width: 50%;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 35px;
+}
+
+/* CONTACTS PAGE */
+.cont5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://thumbs.dreamstime.com/b/elegant-christmas-background-bright-wood-style-modern-simple-border-baubles-fir-branches-stars-ornamental-trees-63018435.jpgs");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.cont5 a {
+  text-decoration: none;
+  color: black;
+  line-height: 100px;
+  font-family: "Twinkle Star", cursive;
+  font-size: 3rem;
+  margin-top: 5%;
+  font-weight: bold;
+  text-shadow: 1px 2px red
+}
+.girl {
+  height: 250px;
+  width: 500px;
+}
